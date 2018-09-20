@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+    base:
+        build:
+            context: .
+            args:
+                - MINICONDA_VERSION=${MINICONDA_VERSION}
+                - TINI_VERSION=${TINI_VERSION}
+        image: hasaltaiar/ubuntu_miniconda3:${MINICONDA_VERSION}
