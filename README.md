@@ -14,10 +14,10 @@ Tini is a simple and lightweight way of initialising containers. You can read mo
 To pull the image you can just do so easily: 
 
 ```sh
-docker pull hasaltaiar/miniconda3
+docker pull hasaltaiar/ubuntu_miniconda3
 
 # or just run it directly
-docker run 	-it hasaltaiar/miniconda3 bash 
+docker run -it hasaltaiar/ubuntu_miniconda3
 ```
 
 ## Build
